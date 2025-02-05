@@ -3,6 +3,6 @@ on: [push]
 jobs:
   Hello-World-Job:
     runs-on:
-      - codebuild-GHA_Runner_Testing-${{ github.run_id }}-${{ github.run_attempt }}
+      - codebuild-tdonaworth-GitHub-Runners-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World!"
