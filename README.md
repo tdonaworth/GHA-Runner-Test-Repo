@@ -4,7 +4,9 @@ This Repository is to test out AWS CodeBuild GitHub Action Runners
 
 Resources: 
 - [Tutorial: Configure a CodeBuild-hosted GitHub Actions Runner](https://docs.aws.amazon.com/codebuild/latest/userguide/action-runner.html)
-- 
+- [Label overrides supported with the CodeBuild-hosted GitHub Actions runner](https://docs.aws.amazon.com/codebuild/latest/userguide/sample-github-action-runners-update-labels.html)
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+
 
 # Basic Setup (AWS Console)
 ## 1. CodeConnection
