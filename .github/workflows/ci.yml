@@ -14,7 +14,7 @@ on:
 jobs:
   build:
     runs-on:
-      - codebuild-tdonaworth-GitHub-Runners-${{ github.run_id }}-${{ github.run_attempt }}
+      - codebuild-tdonaworth-GitHub-Runners-EC2-${{ github.run_id }}-${{ github.run_attempt }}
 
     permissions:
       contents: write
