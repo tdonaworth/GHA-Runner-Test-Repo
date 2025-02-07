@@ -1,0 +1,8 @@
+name: Hello World
+on: [push]
+jobs:
+  Hello-World-Job:
+    runs-on:
+      - codebuild-tdonaworth-GitHub-Runners-EC2-${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - run: echo "Hello EC2 World!"
